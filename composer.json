@@ -1,0 +1,19 @@
+{
+    "name": "tyhpdef/laravel-breeze",
+    "description": "Tyhp type definitions for laravel/breeze 2.4.2.",
+    "type": "metapackage",
+    "license": "Apache-2.0",
+    "version": "2.4.2",
+    "keywords": [
+        "dev",
+        "static analysis"
+    ],
+    "require": {
+        "tyhpdef/laravel-breeze-impl": "~2.4.2.0"
+    },
+    "extra": {
+        "tyhp": {
+            "impl": "tyhpdef/laravel-breeze-impl"
+        }
+    }
+}
